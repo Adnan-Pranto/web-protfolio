@@ -1,0 +1,22 @@
+h1{
+    font-size: 45px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+#head{
+    margin-left: 100px;
+}
+h3{
+    font-size: 24px;
+    font-family: bold;
+}
+.name-hi{
+    color: orange;
+}
+body{
+    font-family: 'Cormorant Garamond', serif;
+}
+.about-me{
+    margin-left: 10px;
+    font-weight: 40%;
+}
