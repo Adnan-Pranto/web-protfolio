@@ -1,10 +1,10 @@
 h1{
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Libre Baskerville', serif;
 
 }
 #head{
-    margin-left: 100px;
+    margin-left: 40px;
 }
 h3{
     font-size: 24px;
@@ -19,4 +19,13 @@ body{
 .about-me{
     margin-left: 10px;
     font-weight: 40%;
+}
+.half-me{
+    width: 38%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-me img {
+    width: 100%;
 }
