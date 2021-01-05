@@ -3,6 +3,10 @@ h1{
     font-family: 'Libre Baskerville', serif;
 
 }
+h2{
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 #head{
     margin-left: 40px;
 }
@@ -22,7 +26,7 @@ body{
     font-weight: 40%;
 }
 .half-me{
-    width: 38%;
+    width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -32,9 +36,11 @@ body{
 }
 .banner{
     background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 50px;
 }
 .button{
     padding: 10px 20px;
@@ -44,4 +50,38 @@ section{
     color: white;
     text-decoration: none;
     border-radius: 10px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orange-highlight{
+    color: orange;
+}
+p{
+    color: rgb(71, 67, 67);
+    font-weight: 550;
+    font-size: 19px;
+}
+.single-box{
+    box-shadow: 12px 12px 45px gray;
+    border-radius: 6px;
+    height: 60%;
+}
+.my-experiences{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left
+}
+#new-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(7, 216, 24) ,rgb(218, 214, 13));
+   border-image-slice: 1; 
+}
+#full-stac{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(17, 175, 223),rgb(126, 66, 238));
+    border-image-slice: 1;
+    
 }
